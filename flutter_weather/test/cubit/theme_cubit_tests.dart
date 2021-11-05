@@ -5,7 +5,8 @@ import 'package:flutter_weather/weather/weather.dart';
 import 'package:mocktail/mocktail.dart';
 import 'package:test/test.dart';
 
-import '../../helpers/hydrated_bloc.dart';
+import '../helpers/hydrated_bloc.dart';
+
 
 // ignore: must_be_immutable
 class MockWeather extends Mock implements Weather {
